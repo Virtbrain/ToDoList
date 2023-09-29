@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+/// View model for sibgle to do list view(each row in items list)
+class ToDoListItemViewViewModel: ObservableObject {
+    
+    
+    init() {}
+}

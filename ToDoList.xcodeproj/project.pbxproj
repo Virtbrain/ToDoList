@@ -51,6 +51,8 @@
 		14C91C9D2AC6D416009209A5 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C91C9C2AC6D416009209A5 /* RegisterViewViewModel.swift */; };
 		14C91C9F2AC6D42D009209A5 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C91C9E2AC6D42D009209A5 /* ToDoListItemViewViewModel.swift */; };
 		14C91CA12AC6F27A009209A5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C91CA02AC6F27A009209A5 /* HeaderView.swift */; };
+		14C91CA42AC70894009209A5 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C91CA32AC70894009209A5 /* TLButton.swift */; };
+		14C91CA62AC721BA009209A5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C91CA52AC721BA009209A5 /* Extensions.swift */; };
 		14EA27142ABC2BCA00A44DB1 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA27132ABC2BCA00A44DB1 /* ToDoListApp.swift */; };
 		14EA27162ABC2BCA00A44DB1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA27152ABC2BCA00A44DB1 /* MainView.swift */; };
 		14EA27182ABC2BCC00A44DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EA27172ABC2BCC00A44DB1 /* Assets.xcassets */; };
@@ -75,6 +77,8 @@
 		14C91C9C2AC6D416009209A5 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		14C91C9E2AC6D42D009209A5 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		14C91CA02AC6F27A009209A5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		14C91CA32AC70894009209A5 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		14C91CA52AC721BA009209A5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		14EA27102ABC2BCA00A44DB1 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EA27132ABC2BCA00A44DB1 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		14EA27152ABC2BCA00A44DB1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 				14C91C7B2AC6CDFD009209A5 /* GoogleService-Info.plist */,
 				14EA27172ABC2BCC00A44DB1 /* Assets.xcassets */,
 				14EA27132ABC2BCA00A44DB1 /* ToDoListApp.swift */,
+				14C91CA52AC721BA009209A5 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 		14C91CA22AC6F2BE009209A5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				14C91CA32AC70894009209A5 /* TLButton.swift */,
 				14C91CA02AC6F27A009209A5 /* HeaderView.swift */,
 			);
 			path = Login;
@@ -322,6 +328,7 @@
 				14C91C932AC6D3CA009209A5 /* MainViewViewModel.swift in Sources */,
 				14C91C852AC6D289009209A5 /* ToDoListView.swift in Sources */,
 				14C91C972AC6D3E9009209A5 /* ToDoListVIewViewModel.swift in Sources */,
+				14C91CA42AC70894009209A5 /* TLButton.swift in Sources */,
 				14C91C8B2AC6D2DB009209A5 /* RegisterView.swift in Sources */,
 				14C91C952AC6D3D7009209A5 /* ProfileViewViewModel.swift in Sources */,
 				14C91C832AC6D270009209A5 /* ProfileView.swift in Sources */,
@@ -329,6 +336,7 @@
 				14C91C8D2AC6D343009209A5 /* ToDoListItemView.swift in Sources */,
 				14C91C9B2AC6D404009209A5 /* LoginViewViewModel.swift in Sources */,
 				14EA27142ABC2BCA00A44DB1 /* ToDoListApp.swift in Sources */,
+				14C91CA62AC721BA009209A5 /* Extensions.swift in Sources */,
 				14C91C912AC6D3A4009209A5 /* ToDoListItem.swift in Sources */,
 				14C91C872AC6D2A2009209A5 /* NewItemView.swift in Sources */,
 				14C91C992AC6D3FA009209A5 /* NewItemViewViewModel.swift in Sources */,
